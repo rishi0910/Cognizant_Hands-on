@@ -42,10 +42,12 @@ public class Shop {
     }
 
     public void displayProduct(int productId){
-
-        if(productId==-1)
+        if(productId == -1) {
             System.out.println("Product Not Found");
+            return;
+        }
 
-        System.out.println("Name : "+products[productId].getProductName()+" Category : "+products[productId].getCategory());
+        System.out.println("Name : " + products[productId].getProductName() + 
+                           "\nCategory : " + products[productId].getCategory());
     }
 }
