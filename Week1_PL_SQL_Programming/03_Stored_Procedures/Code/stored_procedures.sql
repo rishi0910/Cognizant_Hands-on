@@ -1,6 +1,3 @@
--- =========================================================
--- CORE SCHEMATIC REGISTRIES (Unique Naming Convention)
--- =========================================================
 
 CREATE TABLE Fin_Vaults_Registry (
     x_vault_id INT PRIMARY KEY,
@@ -42,9 +39,9 @@ END;
 /
 
 
--- =========================================================
+
 -- SCENARIO 2: Update Employee Bonus
--- =========================================================
+
 CREATE OR REPLACE PROCEDURE UpdateEmployeeBonus (
     target_division_in IN VARCHAR2,
     incentive_ratio_in IN NUMBER
@@ -62,9 +59,9 @@ END;
 /
 
 
--- =========================================================
+
 -- SCENARIO 3: Cross-Vault Liquidity Routing Framework
--- =========================================================
+
 CREATE OR REPLACE PROCEDURE TransferFunds (
     source_vault_in IN INT,
     target_vault_in IN INT,
