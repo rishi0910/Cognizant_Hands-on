@@ -1,0 +1,15 @@
+.formatstyle {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  border: 2px solid brown;
+  padding: 20px;
+  width: 400px;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Name, .School, .Total, .Score {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
